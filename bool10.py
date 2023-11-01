@@ -6,4 +6,8 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    x=pow(a,1/2)
+    if a/x==x:
+        return True
+    return False
+print(main(100))
