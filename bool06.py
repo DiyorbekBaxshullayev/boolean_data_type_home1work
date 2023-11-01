@@ -7,4 +7,7 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    if a%2==0:
+        return True
+    return False
+print(main(8))
